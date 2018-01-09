@@ -26,7 +26,7 @@ public class MidiSynthesizer {
 			midiChannels = synth.getChannels();
 		}
 		catch(Exception e){
-//			e.printStackTrace();
+			e.printStackTrace();
 		}
 		voice = 0;
 	}
@@ -45,17 +45,17 @@ public class MidiSynthesizer {
     }
 	
 	public void playSound(int kNum){
-//		midiChannels[voice].noteOn(kNum, 64);
+		midiChannels[voice].noteOn(kNum, 64);
 	}
 	
 	public void playSound(int kNum, int velocity){
-//		midiChannels[voice].noteOn(kNum, velocity);
+		midiChannels[voice].noteOn(kNum, velocity);
 	}
 	public void stopSound(int kNum){
-//		midiChannels[voice].noteOff(kNum, 64);
+		midiChannels[voice].noteOff(kNum, 64);
 	}
 	
 	public void stopSound(int kNum, int velocity){
-//		midiChannels[voice].noteOff(kNum, velocity);
+		midiChannels[voice].noteOff(kNum, velocity);
 	}
 }
