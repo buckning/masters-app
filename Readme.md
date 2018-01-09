@@ -4,6 +4,9 @@ https://bitbucket.org/andrewmcglynn86/college-masters
 
 This project has been tested on Windows 10 and will work as is. 
 
+# Prerequisites
+* Sound card must be enabled to play MIDI sounds
+
 # Import Project into Eclipse
 * Create and open an Eclipse workspace
 * File -> Import -> General -> Existing Projects Into Workspace
@@ -16,3 +19,4 @@ This project has been tested on Windows 10 and will work as is.
 * Expand the **occupationaltherapy** package
 * Double click **StartHere.java**
 * Click the run button
+* Run the program as a Java Application
