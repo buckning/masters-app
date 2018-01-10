@@ -1,6 +1,6 @@
 This repository contains a multi-touch application, which was developed as part of a research project as part of my Master's Degree between 2010 - 2012.
 The thesis for this project and conference paper is available on the following repository:
-https://bitbucket.org/andrewmcglynn86/college-masters
+https://bitbucket.org/andrewmcglynn86/masters-docs
 
 This project has been tested on Windows 10 using Eclipse EE (Kepler) Build: 20130614-0229 and works as is.
 
