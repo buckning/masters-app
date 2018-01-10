@@ -4,7 +4,8 @@ https://bitbucket.org/andrewmcglynn86/college-masters
 
 This project has been tested on Windows 10 using Eclipse EE (Kepler) Build: 20130614-0229 and works as is.
 
-The project is broken into 3 applications
+The project is broken into 3 applications:
+
 * Multi-touch recreational activity program
 * Database data downloader
 * Data analysis tool
@@ -20,11 +21,12 @@ This project expects to receive TUIO events from multi-touch tracking software, 
 * Eclipse IDE
 
 ## MySQL Configuration
-Port: 3306
-Database Name: hospitalData
-Username: root
-Password: gmitresearch
-Host: localhost (same machine that the project is running on)
+
+* Port: 3306
+* Database Name: hospitalData
+* Username: root
+* Password: gmitresearch
+* Host: localhost (same machine that the project is running on)
 
 ### Database Schema
 Create Database
