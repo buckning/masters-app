@@ -16,11 +16,14 @@ Password: gmitresearch
 Host: localhost (same machine that the project is running on)
 
 ### Database Schema
-**Create Database**
-create database hospitalData;
+Create Database
+> create database hospitalData;
+
+Select database
+> use hospitalData;
 
 Create the database schema
-CREATE TABLE sessionData (sessionId INT NOT NULL AUTO_INCREMENT, applicationName VARCHAR(255), startTime VARCHAR(16), endTime VARCHAR(16), photo BLOB, interactionInfo BLOB, PRIMARY KEY (sessionId));
+> CREATE TABLE sessionData (sessionId INT NOT NULL AUTO_INCREMENT, applicationName VARCHAR(255), startTime VARCHAR(16), endTime VARCHAR(16), photo BLOB, interactionInfo BLOB, PRIMARY KEY (sessionId));
 
 Note that the application can run without a database installed or configured.
 
