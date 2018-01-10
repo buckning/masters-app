@@ -1,4 +1,4 @@
-This repository contains a Multi-touch application, which was developed as part of a research project as part of my Master's Degree between 2010 - 2012. 
+This repository contains a multi-touch application, which was developed as part of a research project as part of my Master's Degree between 2010 - 2012.
 The thesis for this project and conference paper is available on the following repository:
 https://bitbucket.org/andrewmcglynn86/college-masters
 
@@ -8,6 +8,11 @@ The project is broken into 3 applications
 * Multi-touch recreational activity program
 * Database data downloader
 * Data analysis tool
+
+This system was built for a custom made multi-touch screen. More information about building a multi-touch screen can be found here:
+https://sites.google.com/site/gmitresearch/home
+
+This project expects to receive TUIO events from multi-touch tracking software, such as [Community Core Vision (CCV)](http://ccv.nuigroup.com/). Although this project was intended to be used with CCV, it does function with input from a mouse.
 
 # Prerequisites
 * Java 7 or above must be available on the host machine
