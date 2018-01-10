@@ -16,8 +16,11 @@ Password: gmitresearch
 Host: localhost (same machine that the project is running on)
 
 ### Database Schema
-To create the database schema, run the following MySQL command.
-CREATE TABLE sessionData (sessionId INT NOT NULL AUTO_INCREMENT, PRIMARY KEY sessionId, applicationName VARCHAR(255), startTime VARCHAR(16), endTime VARCHAR(16), photo BLOB, interactionInfo BLOB);
+**Create Database**
+create database hospitalData;
+
+Create the database schema
+CREATE TABLE sessionData (sessionId INT NOT NULL AUTO_INCREMENT, applicationName VARCHAR(255), startTime VARCHAR(16), endTime VARCHAR(16), photo BLOB, interactionInfo BLOB, PRIMARY KEY (sessionId));
 
 Note that the application can run without a database installed or configured.
 
