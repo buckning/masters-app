@@ -53,5 +53,6 @@
 			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="MT4j"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="mt4jLibs/mysql-connector-java-5.1.45-bin.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
