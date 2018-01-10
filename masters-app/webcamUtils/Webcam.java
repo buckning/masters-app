@@ -8,15 +8,15 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Vector;
 import javax.imageio.ImageIO;
-//import javax.media.Buffer;
-//import javax.media.CaptureDeviceInfo;
-//import javax.media.CaptureDeviceManager;
-//import javax.media.Manager;
-//import javax.media.MediaLocator;
-//import javax.media.Player;
-//import javax.media.control.FrameGrabbingControl;
-//import javax.media.format.VideoFormat;
-//import javax.media.util.BufferToImage;
+import javax.media.Buffer;
+import javax.media.CaptureDeviceInfo;
+import javax.media.CaptureDeviceManager;
+import javax.media.Manager;
+import javax.media.MediaLocator;
+import javax.media.Player;
+import javax.media.control.FrameGrabbingControl;
+import javax.media.format.VideoFormat;
+import javax.media.util.BufferToImage;
 
 /**
  * Uses JMF to access the webcam
@@ -24,8 +24,8 @@ import javax.imageio.ImageIO;
  *
  */
 public class Webcam {
-//	private MediaLocator locator;
-//	private Player player;
+	private MediaLocator locator;
+	private Player player;
 	private static Webcam webcam = null;
 	
 	private Webcam()throws Exception{
@@ -62,8 +62,7 @@ public class Webcam {
 	 * @return the video feed as an AWT component
 	 */
 	public Component getVisualComponent(){
-//		return player.getVisualComponent();
-		return null;
+		return player.getVisualComponent();
 	}
 	
 	/**

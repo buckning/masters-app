@@ -58,5 +58,6 @@
 	<classpathentry kind="lib" path="mt4jLibs/mysql-connector-java-5.1.45-bin.jar"/>
 	<classpathentry kind="lib" path="mt4jLibs/miglayout-4.0.jar"/>
 	<classpathentry kind="lib" path="mt4jLibs/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="mt4jLibs/jmf.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
